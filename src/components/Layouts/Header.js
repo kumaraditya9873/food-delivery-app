@@ -35,22 +35,28 @@ const Header = () => {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link as={Link} to="">
+                {/* "/about" */}
                 About
               </Nav.Link>
-              <Nav.Link as={Link} to="/menu">
+              <Nav.Link as={Link} to="">
+                {/* "/menu" */}
                 Our Menu
               </Nav.Link>
-              <Nav.Link as={Link} to="/shop">
+              <Nav.Link as={Link} to="">
+                {/* "/shop" */}
                 Shop
               </Nav.Link>
-              <Nav.Link as={Link} to="/blog">
+              <Nav.Link as={Link} to="">
+                {/* "/blog" */}
                 Blog
               </Nav.Link>
-              <Nav.Link as={Link} to="/contact">
+              <Nav.Link as={Link} to="">
+                {/* "/contact" */}
                 Contact
               </Nav.Link>
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="">
+                .{/* "/" */}
                 <div className="cart">
                   <Icon />
                   <em className="roundpoint">2</em>
